@@ -1,0 +1,10 @@
+amischeme
+	1. Alternate between +v and -v
+	0. 0 voltage
+
+mid= i*n+floor(0.5*n);
+
+times new 12 font
+diagram name number
+
+conclusion passive past tense

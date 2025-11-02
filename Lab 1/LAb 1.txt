@@ -1,0 +1,54 @@
+Data Communication Laboratory
+
+Lab Report:
+variable name data sequence change hobe
+
+Exp No: 01
+Experiment Name: Introduction to MATLAB: Basic Programming and Visualization
+Objectives: 3/4
+
+Theory:
+Source Code: (problem 6/7)
+	problem: 1.1,
+	source code:,
+Conclusion:
+
+---------------
+Practice:
+1. Log Function
+2. Area Plot of Sinx
+3. Phase Changing
+4. Frequency Changing
+
+
+
+
+
+
+amplitude
+phase
+
+a binary sequence
+data=[1 0 1 1 0 0 1];
+disp('binary sequence:');
+disp(data);
+
+
+
+
+54 line
+
+binaryData=[0 1 1 0 1 0 1];
+
+%create time vector that matches the number of binaryData
+t=1:length(binaryData);
+%use stairs to plot the digital signal
+stairs(t,binaryData,'r','LineWidth',2);
+
+
+%customize the plot
+ylim([-0.2 1.2]);
+xlabel('Time');
+ylabel('Binary Value');
+title('Digital Signal Using Stairs');
+grid on;

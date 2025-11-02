@@ -1,0 +1,40 @@
+Lab: Implementation of Digital to Analog Conversion Technique in MATLAB
+
+generate analog signal from digital signal
+
+Long distance e Analog Signal use korte hoi
+
+3 properties of analog signals:
+
+1. Amplitude
+2. Phase
+3. Frequency
+
+
+
+
+3 technique to convert:
+
+1. ASK :- Amplitude Shift keying
+2. FSK:- Frequency Shift keying
+3. BPSK/QPSK:- Binary Phase Shift keying / 
+
+
+
+For ASK:
+
+data=
+
+Tb- Bit Duration
+Fc - frequecncy of carrier signal
+Fs- Sampling frequency
+carrier= (sin wave formula)
+t- Time Vector
+ask_signal[] - empty array
+
+if data[i]==1
+	append carrier signal in empty array
+else if data[i]==0
+	append 0
+
+*Tb:1/Fs: i-Tb-1/Fs
